@@ -1,23 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="OSGi R7 Reference Implementations" increment="1558523841312">
-  <resource>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="25863" type="Long"/>
-      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/stax/stax-api/1.0/stax-api-1.0.jar"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="8488A6306AA9E1E22B2045BC29DEC3E228053918290F6A9116E6C566F1686039"/>
-    </capability>
-    <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="stax:stax-api"/>
-      <attribute name="type" value="application/java-archive"/>
-      <attribute name="version" value="1.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="stax:stax-api:1.0"/>
-      <attribute name="from" value="stax:stax-api:1.0"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-  </resource>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="OSGi R7 Reference Implementations" increment="1558575222626">
   <resource>
     <capability namespace="osgi.content">
       <attribute name="size" value="62696" type="Long"/>
@@ -33,6 +15,24 @@
     <capability namespace="bnd.info">
       <attribute name="name" value="org.easymock:easymock:2.2"/>
       <attribute name="from" value="org.easymock:easymock:2.2"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="25863" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/stax/stax-api/1.0/stax-api-1.0.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="8488A6306AA9E1E22B2045BC29DEC3E228053918290F6A9116E6C566F1686039"/>
+    </capability>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="stax:stax-api"/>
+      <attribute name="type" value="application/java-archive"/>
+      <attribute name="version" value="1.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="stax:stax-api:1.0"/>
+      <attribute name="from" value="stax:stax-api:1.0"/>
       <attribute name="version" value="0.0.0" type="Version"/>
     </capability>
   </resource>
@@ -1721,24 +1721,6 @@
     </capability>
   </resource>
   <resource>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="1289806" type="Long"/>
-      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/org/apache/ant/ant/1.7.0/ant-1.7.0.jar"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="92F72307E7440F1E352C916F2438D2BBAB3FFD2CF730C71316117AD04ABADEA8"/>
-    </capability>
-    <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="org.apache.ant:ant"/>
-      <attribute name="type" value="application/java-archive"/>
-      <attribute name="version" value="1.7.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="org.apache.ant:ant:1.7.0"/>
-      <attribute name="from" value="org.apache.ant:ant:1.7.0"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-  </resource>
-  <resource>
     <capability namespace="osgi.identity">
       <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
       <attribute name="osgi.identity" value="org.apache.geronimo.specs.geronimo-saaj_1.3_spec"/>
@@ -1799,6 +1781,24 @@
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=org.w3c.dom))"/>
     </requirement>
+  </resource>
+  <resource>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="1289806" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/org/apache/ant/ant/1.7.0/ant-1.7.0.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="92F72307E7440F1E352C916F2438D2BBAB3FFD2CF730C71316117AD04ABADEA8"/>
+    </capability>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="org.apache.ant:ant"/>
+      <attribute name="type" value="application/java-archive"/>
+      <attribute name="version" value="1.7.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.apache.ant:ant:1.7.0"/>
+      <attribute name="from" value="org.apache.ant:ant:1.7.0"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
   </resource>
   <resource>
     <capability namespace="osgi.content">
@@ -4830,24 +4830,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.content">
-      <attribute name="size" value="913436" type="Long"/>
-      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="EA89D5090C8303BA4E9A0056E6D8A20429F3E021411E950BFD9EBA3B6E6CF15C"/>
-    </capability>
-    <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="net.java.dev.jna:platform"/>
-      <attribute name="type" value="application/java-archive"/>
-      <attribute name="version" value="3.4.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="net.java.dev.jna:platform:3.4.0"/>
-      <attribute name="from" value="net.java.dev.jna:platform:3.4.0"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.content">
       <attribute name="size" value="225375" type="Long"/>
       <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/commons-httpclient/commons-httpclient/2.0.2/commons-httpclient-2.0.2.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
@@ -4861,6 +4843,24 @@
     <capability namespace="bnd.info">
       <attribute name="name" value="commons-httpclient:commons-httpclient:2.0.2"/>
       <attribute name="from" value="commons-httpclient:commons-httpclient:2.0.2"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="913436" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="EA89D5090C8303BA4E9A0056E6D8A20429F3E021411E950BFD9EBA3B6E6CF15C"/>
+    </capability>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="net.java.dev.jna:platform"/>
+      <attribute name="type" value="application/java-archive"/>
+      <attribute name="version" value="3.4.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="net.java.dev.jna:platform:3.4.0"/>
+      <attribute name="from" value="net.java.dev.jna:platform:3.4.0"/>
       <attribute name="version" value="0.0.0" type="Version"/>
     </capability>
   </resource>
@@ -6678,6 +6678,24 @@
   </resource>
   <resource>
     <capability namespace="osgi.content">
+      <attribute name="size" value="23563" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/saxpath/saxpath/1.0-FCS/saxpath-1.0-FCS.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="2724F32DCE81D20B958395884ACE80BD992B884130C357411D9691D19003F3A1"/>
+    </capability>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="saxpath:saxpath"/>
+      <attribute name="type" value="application/java-archive"/>
+      <attribute name="version" value="1.0.0.FCS" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="saxpath:saxpath:1.0-FCS"/>
+      <attribute name="from" value="saxpath:saxpath:1.0-FCS"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.content">
       <attribute name="size" value="26514" type="Long"/>
       <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
@@ -6709,24 +6727,6 @@
     <capability namespace="bnd.info">
       <attribute name="name" value="com.ibm.icu:icu4j:2.6.1"/>
       <attribute name="from" value="com.ibm.icu:icu4j:2.6.1"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="23563" type="Long"/>
-      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/saxpath/saxpath/1.0-FCS/saxpath-1.0-FCS.jar"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="2724F32DCE81D20B958395884ACE80BD992B884130C357411D9691D19003F3A1"/>
-    </capability>
-    <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="saxpath:saxpath"/>
-      <attribute name="type" value="application/java-archive"/>
-      <attribute name="version" value="1.0.0.FCS" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="saxpath:saxpath:1.0-FCS"/>
-      <attribute name="from" value="saxpath:saxpath:1.0-FCS"/>
       <attribute name="version" value="0.0.0" type="Version"/>
     </capability>
   </resource>
@@ -8914,24 +8914,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.content">
-      <attribute name="size" value="19097" type="Long"/>
-      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/msv/relaxngDatatype/20030807/relaxngDatatype-20030807.jar"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="4D45A93EB5CDC32631966673C954B83FC9B60A0681BBDDCEFA2C4976D04CDDF2"/>
-    </capability>
-    <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="msv:relaxngDatatype"/>
-      <attribute name="type" value="application/java-archive"/>
-      <attribute name="version" value="20030807.0.0" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="msv:relaxngDatatype:20030807"/>
-      <attribute name="from" value="msv:relaxngDatatype:20030807"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.content">
       <attribute name="size" value="34783" type="Long"/>
       <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/asm/asm/2.2.1/asm-2.2.1.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
@@ -8945,6 +8927,24 @@
     <capability namespace="bnd.info">
       <attribute name="name" value="asm:asm:2.2.1"/>
       <attribute name="from" value="asm:asm:2.2.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="19097" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/msv/relaxngDatatype/20030807/relaxngDatatype-20030807.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="4D45A93EB5CDC32631966673C954B83FC9B60A0681BBDDCEFA2C4976D04CDDF2"/>
+    </capability>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="msv:relaxngDatatype"/>
+      <attribute name="type" value="application/java-archive"/>
+      <attribute name="version" value="20030807.0.0" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="msv:relaxngDatatype:20030807"/>
+      <attribute name="from" value="msv:relaxngDatatype:20030807"/>
       <attribute name="version" value="0.0.0" type="Version"/>
     </capability>
   </resource>
@@ -12185,24 +12185,6 @@
   </resource>
   <resource>
     <capability namespace="osgi.content">
-      <attribute name="size" value="254408" type="Long"/>
-      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/com/jcraft/jsch/0.1.50/jsch-0.1.50.jar"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="7DF9E7FCE84F429C5A313FFB86B23AA55FFCFC36D4D50635E176BC846E17B195"/>
-    </capability>
-    <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="com.jcraft:jsch"/>
-      <attribute name="type" value="application/java-archive"/>
-      <attribute name="version" value="0.1.50" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="com.jcraft:jsch:0.1.50"/>
-      <attribute name="from" value="com.jcraft:jsch:0.1.50"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
-  </resource>
-  <resource>
-    <capability namespace="osgi.content">
       <attribute name="size" value="121070" type="Long"/>
       <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
@@ -12216,6 +12198,24 @@
     <capability namespace="bnd.info">
       <attribute name="name" value="junit:junit:3.8.1"/>
       <attribute name="from" value="junit:junit:3.8.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="254408" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/com/jcraft/jsch/0.1.50/jsch-0.1.50.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="7DF9E7FCE84F429C5A313FFB86B23AA55FFCFC36D4D50635E176BC846E17B195"/>
+    </capability>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="com.jcraft:jsch"/>
+      <attribute name="type" value="application/java-archive"/>
+      <attribute name="version" value="0.1.50" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="com.jcraft:jsch:0.1.50"/>
+      <attribute name="from" value="com.jcraft:jsch:0.1.50"/>
       <attribute name="version" value="0.0.0" type="Version"/>
     </capability>
   </resource>
@@ -14317,6 +14317,24 @@
     </requirement>
   </resource>
   <resource>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="450279" type="Long"/>
+      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="AD9769A22989E688A46AF4D3ACCC348CC501CED22118033230542BC916E33F0B"/>
+    </capability>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="com.google.protobuf:protobuf-java"/>
+      <attribute name="type" value="application/java-archive"/>
+      <attribute name="version" value="2.4.1" type="Version"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="com.google.protobuf:protobuf-java:2.4.1"/>
+      <attribute name="from" value="com.google.protobuf:protobuf-java:2.4.1"/>
+      <attribute name="version" value="0.0.0" type="Version"/>
+    </capability>
+  </resource>
+  <resource>
     <capability namespace="osgi.identity">
       <attribute name="license" value="http://www.jcraft.com/jsch-agent-proxy/LICENSE.txt"/>
       <attribute name="osgi.identity" value="com.jcraft.jsch.agentproxy.pageant"/>
@@ -14360,24 +14378,6 @@
     <requirement namespace="osgi.wiring.package">
       <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.jna.win32))"/>
     </requirement>
-  </resource>
-  <resource>
-    <capability namespace="osgi.content">
-      <attribute name="size" value="450279" type="Long"/>
-      <attribute name="url" value="file:/C:/Users/eprafpr/.m2/repository/com/google/protobuf/protobuf-java/2.4.1/protobuf-java-2.4.1.jar"/>
-      <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="AD9769A22989E688A46AF4D3ACCC348CC501CED22118033230542BC916E33F0B"/>
-    </capability>
-    <capability namespace="osgi.identity">
-      <attribute name="osgi.identity" value="com.google.protobuf:protobuf-java"/>
-      <attribute name="type" value="application/java-archive"/>
-      <attribute name="version" value="2.4.1" type="Version"/>
-    </capability>
-    <capability namespace="bnd.info">
-      <attribute name="name" value="com.google.protobuf:protobuf-java:2.4.1"/>
-      <attribute name="from" value="com.google.protobuf:protobuf-java:2.4.1"/>
-      <attribute name="version" value="0.0.0" type="Version"/>
-    </capability>
   </resource>
   <resource>
     <capability namespace="osgi.identity">
